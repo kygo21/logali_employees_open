@@ -72,8 +72,6 @@ sap.ui.define([
                 //Obtenemos las incidencias creadas asociadas al modelo
                 var incidenceModel = this._detailEmployeeView.getModel("incidenceModel").getData();
 
-                var incidenceCreateModel = this.getView().getModel("incidenceModel");
-
                 //Armamos el cuerpo del json a enviar para el oData
                 //SapId: Se obtiene de la variable global que se definió en el Component.js
                 //Los demás campos se obtiene del incidenceModel y especificando su indice que viene deta.incidenceRow
