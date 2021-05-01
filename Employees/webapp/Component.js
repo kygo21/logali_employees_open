@@ -25,6 +25,8 @@ sap.ui.define([
 
 			// set the device model
 			this.setModel(models.createDeviceModel(), "device");
-		}
+        },
+        //Aquí se declara una variable global
+        SapId: "jim.moreno21@gmail.com"
 	});
 });

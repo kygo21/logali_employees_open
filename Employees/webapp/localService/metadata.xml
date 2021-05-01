@@ -44,7 +44,7 @@
                     <NavigationProperty Name="Orders" Relationship="NorthwindModel.FK_Orders_Customers" FromRole="Customers" ToRole="Orders" />
                     <NavigationProperty Name="CustomerDemographics" Relationship="NorthwindModel.CustomerCustomerDemo" FromRole="Customers" ToRole="CustomerDemographics" />
                 </EntityType>
-                <EntityType Name="Employee">
+                <EntityType Name="Employees">
                     <Key>
                         <PropertyRef Name="EmployeeID" />
                     </Key>
@@ -85,7 +85,7 @@
                         <NavigationProperty Name="Order" Relationship="NorthwindModel.FK_Order_Details_Orders" FromRole="Order_Details" ToRole="Orders" />
                         <NavigationProperty Name="Product" Relationship="NorthwindModel.FK_Order_Details_Products" FromRole="Order_Details" ToRole="Products" />
                     </EntityType>
-                    <EntityType Name="Order">
+                    <EntityType Name="Orders">
                         <Key>
                             <PropertyRef Name="OrderID" />
                         </Key>
